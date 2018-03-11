@@ -1,0 +1,57 @@
+<style>
+       * {
+                   box-sizing: border-box;
+         font-family: "Times New Roman";
+             box-sizing: border-box;
+       }
+
+        .header {
+            background-color: orangered;
+            text-align: center;
+            }
+        .header h1 {
+            color:white;
+          }
+      .main ul {
+        padding-left:0;
+        margin:0
+      }
+      .main ul li {
+             list-style: none;
+           padding: 10px 10px 10px 40px;
+         font-size: 20px;
+        background-color:LightGrey;
+            position: relative;
+            }
+      li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+             .main ul li .close {
+              float: right;
+          }
+         }
+       .main ul li:hover {
+             cursor: pointer;
+             background-color: #eee;
+        }
+        .main ul li:hover .close {
+           background-color: orangered;
+         }
+      .main ul li .close {
+        float:right;
+      }
+      .main ul li.completed {
+        background-color;   
+        text-decoration: #efeff5;
+        color:white;
+        .main ul li.completed:before {
+    content: '';
+    position: absolute;
+    left: 12px;
+    padding: 10px 15px;
+    background: url(./tick.svg) no-repeat top left;
+}
+      }
+      
+    </style>
