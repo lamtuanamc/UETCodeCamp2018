@@ -1,2 +1,0 @@
-origin + git@github.com:lamtuanamc/UETCodeCamp2018.git
-origin + git@github.com:lamtuanamc/UETCodeCamp2018.git
